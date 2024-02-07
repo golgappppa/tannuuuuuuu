@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-image: linear-gradient(rgb(160, 206, 240), burlywood,rgb(227, 129, 236));
+    }
+
+td,th,caption{
+    text-transform: capitalize;
+}
+
+caption{
+    font-size: 40px;
+}
+th{
+    font-size: 50px;
+}
+td{
+    font-size: 30px;
+}
+h1{
+    text-transform: capitalize;
+}
+button{
+    background-color:rgb(198, 76, 236);
+    font-size: 30px;
+    border: 3px solid rgb(165, 40, 40);
+
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.5;
+}
+</style>
+</head>
+<body>
+    <h1 style="font-size: 80px;text-align: center;text-decoration:underline;">Order Summary</h1>
+    <h1 style="font-size: 50px;">Send the picture or name of anything you want at <a href="mailto:kapurmanit11@gmail.com">my email</a> or message me at 6283888683</h1>
+    <br>
+    
+    <h1 style="font-size: 50px;">here is your receipt</h1>
+    <button onclick="myFunction()">Receipt</button>
+
+<div id="myDIV">
+<table border="1" cellpadding="10" style="margin-left: 700px;">
+    <caption>receipt</caption>
+    <tr>
+        <th >product</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td rowspan="4" style="font-size: 25px;">anything you want</td>
+        <td>5000</td>
+    </tr>
+    <tr>
+        
+        <td>GST-8%</td>
+    </tr>
+    <tr>
+        
+        <td>discount for being beautiful,<br> cute, smart and my bestfriend</td>
+    </tr>
+    <tr>
+        <td>total price - 0</td>
+    </tr>
+</table>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="margin-left: 850px;">
+<button><a style="text-decoration: none;" href="surpprise.html">surprise end???!!!</a></button>
+</div>
+</body>
+</html>
+
+
+
